@@ -1,34 +1,31 @@
-# README
+# The THP project name : Mon Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Configuration ruby & Rails
 
-Things you may want to cover:
+Ruby version : 2.5.1
+<br>
+Rails version : 5.2.0
 
-* Ruby version
+## Install
 
-* System dependencies
+Installer les gems
+```sh
+bundle install
+```
+Cloner le repository
+```sh
+git clone https://github.com/jibenight/mon_blog
+```
 
-* Configuration
+## Tables
 
-* Database creation
+| Users    |    Posts          |  Categories | Comments        |    Posts          |
+|:--------:|:-----------------:|:-----------:|:---------------:|:-----------------:|
+| _**id**_ | _**id**_          | _**id**_    | _**id**_        | _**id**_          |
+| firstname| title             | name        | coontent        | user_id           |
+| lastname | content           |             | **articles_id** | **categories_id** |
+| email    | **user_id**       |             | **user_id**     |                   |      
+|          | **categories_id** |             | 
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-| Users    |    Posts      |  Cool |
-|:--------:|:-------------:|------:|
-| id       |  id           | $1600 |
-| firstname|    title      |   $12 |
-| lastname | content       |    $1 |
-| email    | user_id       |    $1 |
-| email    | categories_id |    $1 |
-|          | like_id       |
-
+## The focus of the project is to work with rails and how to create and manipulate the data base
