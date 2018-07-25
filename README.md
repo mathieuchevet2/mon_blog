@@ -16,7 +16,11 @@ Cloner le repository
 ```sh
 git clone https://github.com/jibenight/mon_blog
 ```
-
+Migrer la base de données
+```sh
+rails db:migrate
+rails db:seed
+```
 ## Tables
 
 | Users    |    Posts          |  Categories | Comments        |    Posts          |
